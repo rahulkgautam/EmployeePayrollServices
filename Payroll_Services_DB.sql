@@ -1,3 +1,4 @@
-Create Database Payroll_Services
+alter table Employee_Payroll add Gender char
 
-use Payroll_Services
+UPDATE Employee_Payroll set Gender = 'M' where EmployeeName = 'Bill' or EmployeeName= 'Charlie';
+
