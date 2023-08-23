@@ -1,1 +1,2 @@
-Create table Employee_Payroll (EmployeeId int primary key IDENTITY(1,1),EmployeeName varchar(100),Salary float,StartDate date)
+Insert into Employee_Payroll values('Bill',28000,'2023-08-21')
+
