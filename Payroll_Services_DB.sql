@@ -1,3 +1,1 @@
-Create Database Payroll_Services
-
-use Payroll_Services
+Create table Employee_Payroll (EmployeeId int primary key IDENTITY(1,1),EmployeeName varchar(100),Salary float,StartDate date)
