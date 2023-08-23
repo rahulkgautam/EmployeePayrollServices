@@ -1,4 +1,1 @@
-alter table Employee_Payroll add Gender char
-
-UPDATE Employee_Payroll set Gender = 'M' where EmployeeName = 'Bill' or EmployeeName= 'Charlie';
-
+SELECT SUM(salary)as TotalSal,MIN(Salary)as MinSal,MAX(Salary) as MaxSal,AVG(Salary) as AvgSal,COUNT(Salary) as CountSal FROM Employee_Payroll WHERE Gender = 'M' GROUP BY Gender;
