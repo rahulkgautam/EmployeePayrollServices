@@ -1,3 +1,1 @@
-Create Database Payroll_Services
-
-use Payroll_Services
+select * from Employee_Payroll
