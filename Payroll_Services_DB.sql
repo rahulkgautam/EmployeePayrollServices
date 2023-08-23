@@ -1,3 +1,1 @@
-Create Database Payroll_Services
-
-use Payroll_Services
+SELECT SUM(salary)as TotalSal,MIN(Salary)as MinSal,MAX(Salary) as MaxSal,AVG(Salary) as AvgSal,COUNT(Salary) as CountSal FROM Employee_Payroll WHERE Gender = 'M' GROUP BY Gender;
