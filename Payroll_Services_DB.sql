@@ -1,4 +1,4 @@
-select * from Employee_Payroll where EmployeeName='Bill'
+alter table Employee_Payroll add Gender char
 
-select * from Employee_Payroll WHERE StartDate BETWEEN CAST('2018-01-01'
-AS DATE) AND GETDATE();
+UPDATE Employee_Payroll set Gender = 'M' where EmployeeName = 'Bill' or EmployeeName= 'Charlie';
+
