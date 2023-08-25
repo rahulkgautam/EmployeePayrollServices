@@ -1,1 +1,4 @@
-SELECT SUM(salary)as TotalSal,MIN(Salary)as MinSal,MAX(Salary) as MaxSal,AVG(Salary) as AvgSal,COUNT(Salary) as CountSal FROM Employee_Payroll WHERE Gender = 'M' GROUP BY Gender;
+ALTER TABLE employee_payroll
+add Employee_Phone bigint,
+Employee_Address VARCHAR(100) DEFAULT 'Unknown',
+Employee_Department VARCHAR(50) NOT NULL DEFAULT 'Developer';
