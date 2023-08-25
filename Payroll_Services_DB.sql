@@ -1,4 +1,2 @@
-ALTER TABLE employee_payroll
-add Employee_Phone bigint,
-Employee_Address VARCHAR(100) DEFAULT 'Unknown',
-Employee_Department VARCHAR(50) NOT NULL DEFAULT 'Developer';
+ALTER TABLE employee_payroll ADD Basic_pay DECIMAL(10, 2), Deductions DECIMAL(10, 2), Taxable_pay DECIMAL(10, 2),Income_tax DECIMAL(10, 2),
+Net_pay DECIMAL(10, 2);
